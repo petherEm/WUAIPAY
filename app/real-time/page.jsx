@@ -1,18 +1,19 @@
 import Image from "next/image";
-import Hero from "@/components/shared/Hero";
+import RTHero from "@/components/shared/RealTime/RTHero";
 import SafeBanner from "@/components/shared/SafeBanner";
 import DBUpsell from "@/components/shared/DBUpsell";
-import CompareTable from "@/components/shared/CompareTable";
+import RTCompare from "@/components/shared/RealTime/RTCompare";
 import WUnderBot from "@/components/shared/WUnderBot";
 
-export default function Home() {
+const RealTimeOptions = () => {
   return (
     <main>
-      <Hero />
-      <SafeBanner />
-      {/* <WUnderBot /> */}
+      <RTHero />
+
       <DBUpsell />
-      <CompareTable />
+      <RTCompare />
     </main>
   );
-}
+};
+
+export default RealTimeOptions;
