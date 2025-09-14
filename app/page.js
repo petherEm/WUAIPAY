@@ -8,6 +8,7 @@ import WUnderBot from "@/components/shared/WUnderBot";
 export default function Home() {
   return (
     <main>
+
       <Hero />
       <SafeBanner />
       {/* <WUnderBot /> */}

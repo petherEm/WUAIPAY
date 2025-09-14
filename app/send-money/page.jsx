@@ -145,7 +145,7 @@ const SendMoney = () => {
   };
 
   return (
-    <div className="bg-gray-200 min-h-[3000px]">
+    <div className="bg-gray-200 h-auto">
       {/* YELLOW UPSELL BANNER */}
       <div
         className={`${
