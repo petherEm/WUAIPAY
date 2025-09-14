@@ -14,10 +14,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+              <div className="w-full h-8 bg-black flex items-center justify-center">
+        <p className="text-yellow-400 text-sm font-medium uppercase tracking-wide">This is concept presentation only</p>
+      </div>
         <Navbar />
 
         {children}
-        <div className="h-[5000px]"></div>
+        
         <Footer />
       </body>
     </html>
